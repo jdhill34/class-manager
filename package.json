@@ -1,0 +1,31 @@
+{
+  "name": "class-manager",
+  "version": "1.0.0",
+  "description": "A simple, efficient, course manager that allows you to track projects, assignments, and due dates.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdhill34/class-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdhill34/class-manager/issues"
+  },
+  "homepage": "https://github.com/jdhill34/class-manager#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
